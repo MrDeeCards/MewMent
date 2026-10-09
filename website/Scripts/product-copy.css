@@ -1,5 +1,6 @@
 /* Clear product copy within the established MewMent cat-led composition. */
 .release-download{text-decoration:none;display:inline-flex;align-items:center;gap:8px}.release-secondary{display:flex;flex-wrap:wrap;gap:8px 20px;align-items:center}.release-secondary a{text-decoration:none}.release-secondary a:hover{text-decoration:underline}
+@media(max-width:760px){.home-links{display:flex;flex-direction:row;align-items:center;gap:14px;margin-top:12px}.home-links>.text-button,.release-secondary>button{display:none}.home-links .release-download{font-size:12px;padding:9px 12px;min-height:38px}.release-secondary{gap:0}.release-secondary a{font-size:12px}}
 .home-copy h1{white-space:normal;font-size:clamp(34px,3.5vw,56px);line-height:1.35;letter-spacing:-.045em}
 .home-copy>p{font-size:16px;line-height:1.85;color:var(--muted);max-width:26em;margin:22px 0 24px}
 .cat-greeting span{font-size:20px}
