@@ -1,0 +1,56 @@
+[
+  {
+    "family": "Mew Serif SC",
+    "sourceName": "NotoSerifSC-VF.ttf",
+    "weight": 550,
+    "bytes": 166184,
+    "sha256": "8502f681fc7501705d2de07d5aaf800ca5224c25d4de577c42c6cda64d848e4b",
+    "copyright": "© 2017-2023 Adobe (http://www.adobe.com/).",
+    "license": "NotoSerifSC-OFL.txt"
+  },
+  {
+    "family": "Mew Display",
+    "sourceName": "Lora-Regular.ttf",
+    "weight": 400,
+    "bytes": 17704,
+    "sha256": "58f9fa466303c4db46402d4ab94ba8589769d4ede27367d768b8c6dc33c4cc48",
+    "copyright": "Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic), with Reserved Font Name \"Lora\".",
+    "license": "Lora-OFL.txt"
+  },
+  {
+    "family": "Mew Sans",
+    "sourceName": "InstrumentSans-Regular.ttf",
+    "weight": 400,
+    "bytes": 14500,
+    "sha256": "37e2d21452b1e63e5adb9f2c91f29ae2c2617c437c9325701ed8cd3ff245e7bc",
+    "copyright": "Copyright 2022 The Instrument Sans Project Authors (https://github.com/Instrument/instrument-sans)",
+    "license": "InstrumentSans-OFL.txt"
+  },
+  {
+    "family": "Mew Sans",
+    "sourceName": "InstrumentSans-Bold.ttf",
+    "weight": 700,
+    "bytes": 14620,
+    "sha256": "b1de2dad065745fb00519baf57197f84cc879fdb205d01efbd063b651ce5ab0d",
+    "copyright": "Copyright 2022 The Instrument Sans Project Authors (https://github.com/Instrument/instrument-sans)",
+    "license": "InstrumentSans-OFL.txt"
+  },
+  {
+    "family": "Mew Hand",
+    "sourceName": "NothingYouCouldDo-Regular.ttf",
+    "weight": 400,
+    "bytes": 14620,
+    "sha256": "223a4886934a9ba78724288af506705b5125de455e459f90cdc59aedbca4d8f2",
+    "copyright": "Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com). This Font Software is licensed under the SIL Open Font License, Version 1.1.  This license available with a FAQ at:  http://scripts.sil.org/OFL",
+    "license": "NothingYouCouldDo-OFL.txt"
+  },
+  {
+    "family": "Mew Mono",
+    "sourceName": "DMMono-Regular.ttf",
+    "weight": 400,
+    "bytes": 13436,
+    "sha256": "8ed4dcf94f88bdf17cbc1c78b5ae4c5462e5467516d8cd1f4912f5562e1ca70d",
+    "copyright": "Copyright 2020 The DM Mono Project Authors (https://www.github.com/googlefonts/dm-mono)",
+    "license": "DMMono-OFL.txt"
+  }
+]

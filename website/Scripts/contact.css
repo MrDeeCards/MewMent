@@ -1,0 +1,26 @@
+/* Author-provided channels, readable and copyable at every viewport. */
+.contact-heading{padding-top:clamp(12px,4vh,48px)}
+.contact-letter{padding:26px}
+.contact-workspace{padding-bottom:10px}
+.feedback-tips{padding-top:22px}
+.contact-heading .commerce-cat{margin-top:24px}
+.contact-heading .commerce-cat img{width:150px}
+.contact-letter h2{padding-right:65px;margin-bottom:22px}
+.contact-channels{border-top:1px solid var(--line)}
+.contact-channel{display:flex;align-items:center;justify-content:space-between;gap:16px;border-bottom:1px solid var(--line);padding:15px 0}
+.contact-channel-text{min-width:0}
+.contact-platform{display:block;font-size:12px;line-height:1.5;color:var(--muted);margin-bottom:5px}
+.contact-address{display:inline-flex;align-items:center;gap:10px;max-width:100%;font:500 clamp(17px,1.5vw,23px)/1.45 var(--body);text-decoration:none;overflow-wrap:anywhere}
+a.contact-address{color:var(--green)}
+a.contact-address:hover{text-decoration:underline;text-underline-offset:4px}
+.contact-address .icon{width:18px;height:18px}
+.contact-copy{display:flex;flex-shrink:0;align-items:center;gap:8px;min-height:44px;min-width:72px;padding:8px 10px;border:1px solid var(--line);border-radius:7px;font-size:13px;background:var(--paper)}
+.contact-copy:hover{background:var(--sun-soft)}
+.contact-copy .icon{width:17px;height:17px}
+.contact-letter .contact-search{margin:14px 0 0;font-size:12px;line-height:1.6;color:var(--muted)}
+.feedback-tips h2{font-size:clamp(19px,1.65vw,25px)}
+.feedback-fallback{display:block;width:100%;min-height:82px;margin-top:12px;border:1px solid var(--line);border-radius:7px;padding:12px;background:var(--white);font-size:14px;resize:vertical}
+@media(min-width:761px) and (max-height:800px){.contact-letter{padding:18px}.contact-letter .product-category{margin-bottom:10px}.contact-letter h2{font-size:24px;margin-bottom:12px}.contact-channel{padding:8px 0}.contact-address{font-size:18px}.contact-letter .contact-search{margin-top:10px}.feedback-tips{padding-top:14px}.feedback-tips h2{font-size:21px}.feedback-tips ul{margin:8px 0 10px}.feedback-tips .primary-button{min-height:44px;padding:11px 16px}.contact-heading .commerce-cat img{width:125px}}
+@media(max-width:760px){.contact-heading{padding-top:0}.contact-letter{padding:20px}.contact-letter h2{font-size:23px;padding-right:48px;margin-bottom:20px}.contact-channel{gap:10px;padding:15px 0;align-items:flex-start}.contact-address{font-size:17px;display:block}.contact-address .icon{display:none}.contact-copy{min-width:65px;font-size:12px;gap:6px;margin-top:11px}.contact-copy .icon{width:15px}.contact-letter .contact-search{font-size:11px}}
+@media(max-width:380px){.contact-channel:has(a){flex-wrap:wrap}.contact-channel:has(a) .contact-channel-text{flex-basis:100%}.contact-channel:has(a) .contact-copy{margin-top:0}}
+@media(max-width:760px){.contact-heading h1{font-size:clamp(27px,7.2vw,33px)}}

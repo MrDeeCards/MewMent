@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="cat" x1="256" y1="180" x2="790" y2="900" gradientUnits="userSpaceOnUse"><stop stop-color="#1d1e23"/><stop offset="1" stop-color="#090a0d"/></linearGradient>
+    <linearGradient id="gold" x1="282" y1="480" x2="760" y2="744" gradientUnits="userSpaceOnUse"><stop stop-color="#ffc83d"/><stop offset="1" stop-color="#f2a900"/></linearGradient>
+  </defs>
+  <path d="M170 452C160 332 162 198 194 146C220 104 310 177 426 276C454 268 483 264 512 264C541 264 570 268 598 276C714 177 804 104 830 146C862 198 864 332 854 452C900 508 922 584 914 664C899 835 734 918 512 918C290 918 125 835 110 664C102 584 124 508 170 452Z" fill="url(#cat)" stroke="#f4f0e8" stroke-width="14" stroke-linejoin="round"/>
+  <circle cx="385" cy="604" r="148" fill="url(#gold)"/>
+  <circle cx="716" cy="604" r="70" fill="url(#gold)"/>
+  <path d="M385 604V492M385 604L293 661" fill="none" stroke="#111216" stroke-width="40" stroke-linecap="round"/>
+  <circle cx="385" cy="604" r="34" fill="#111216"/>
+  <path d="M385 604L486 686" class="mewment-second-hand" fill="none" stroke="#ef3f4f" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="385" cy="604" r="18" fill="#ef3f4f"/>
+</svg>

@@ -1,0 +1,47 @@
+/* Revision 2: twice the home-page tempo, stronger but smooth movement. */
+.hero-cat{animation-duration:3s;will-change:transform}
+.clock-hand{animation-duration:8s}
+.timer-card{animation-duration:3.5s;will-change:transform}
+.note-card{animation-duration:4.5s;will-change:transform}
+.dot-one{animation-duration:3.5s}
+.hero-cat.petted{animation-duration:.4s}
+.cat-universe .hero-mark{transform:translate3d(var(--look-x,0px),var(--look-y,0px),0) rotate(var(--look-tilt,0deg));transition:transform .15s ease-out;will-change:transform}
+.cat-shadow{animation:shadow-breathe 3s ease-in-out infinite;will-change:transform,opacity}
+.hello-bubble{animation:hello-float 3.5s ease-in-out infinite}
+.memory-card{animation:memory-float 4s ease-in-out infinite}
+.orbit-one{animation:orbit-turn 12s linear infinite}
+.orbit-two{animation:orbit-return 16s linear infinite}
+.orbit-one:after{content:"";position:absolute;left:18%;top:6%;width:8px;height:8px;border-radius:50%;background:#b0b994;box-shadow:0 0 0 7px #bac29d18}
+.orbit-two:after{content:"";position:absolute;right:9%;bottom:18%;width:5px;height:5px;border-radius:50%;background:#c99773}
+.pet-spark{position:absolute;z-index:6;left:47%;top:40%;color:#bb7469;font-size:22px;pointer-events:none;animation:pet-spark .85s ease-out both;text-shadow:0 2px 8px #d59a6920}
+.pet-spark:nth-child(even){color:#d0a540}
+@keyframes cat-breathe{0%,100%{transform:translate3d(0,3px,0) rotate(-1deg)}50%{transform:translate3d(0,-16px,0) rotate(2deg)}}
+@keyframes float-card{0%,100%{transform:translate3d(0,0,0) rotate(-7deg)}50%{transform:translate3d(2px,-14px,0) rotate(-3deg)}}
+@keyframes note-float{0%,100%{transform:translate3d(0,0,0) rotate(7deg)}50%{transform:translate3d(-3px,10px,0) rotate(3deg)}}
+@keyframes shadow-breathe{50%{transform:scale(.88);opacity:.085}}
+@keyframes hello-float{0%,100%{transform:translate3d(0,0,0) rotate(-4deg)}50%{transform:translate3d(0,-7px,0) rotate(-1deg)}}
+@keyframes memory-float{0%,100%{transform:translate3d(0,0,0) rotate(-2deg)}50%{transform:translate3d(0,-9px,0) rotate(0deg)}}
+@keyframes orbit-turn{to{transform:rotate(332deg)}}
+@keyframes orbit-return{to{transform:rotate(-340deg)}}
+@keyframes pet-spark{0%{transform:translate(0,0) scale(.3);opacity:0}18%{opacity:1}100%{transform:translate(var(--spark-x),var(--spark-y)) scale(1);opacity:0}}
+.live-demo{position:relative;display:block;width:100%;height:100%;overflow:hidden;border-radius:10px;background:#faf7ef;isolation:isolate}
+.product-live-frame{position:absolute;inset:0;width:100%;height:100%;border:0;opacity:0;transition:opacity .24s ease;background:#faf7ef}
+.live-poster{position:absolute;inset:0;width:100%;height:100%;object-fit:contain!important;opacity:.55;filter:blur(2px)}
+.live-demo[data-ready=true] .product-live-frame{opacity:1}
+.live-demo[data-ready=true] .live-poster,.live-demo[data-ready=true] .demo-loading{display:none}
+.demo-loading{position:absolute;left:0;right:0;top:45%;text-align:center;padding:12px;font-size:12px;line-height:1.6;color:#637255;pointer-events:none;background:#faf7efdb}
+.live-demo[data-ready=error] .product-live-frame{display:none}
+.live-demo[data-ready=error] .live-poster{filter:none;opacity:1}
+.live-demo[data-ready=error] .demo-loading{top:auto;bottom:0;font-size:10px}
+.cat-window>.live-demo{border-radius:28px;background:transparent}
+.cat-window .product-live-frame{pointer-events:none}
+.cat-window .live-poster{width:400%!important;height:200%!important;max-width:none!important;object-fit:fill!important;left:var(--poster-x);top:var(--poster-y)}
+.cat-window .demo-loading{font-size:10px}
+.gallery-image-wrap>.live-demo{border-radius:9px}
+.gallery-image-wrap:has(.live-demo){padding:8px}
+.gallery-controls .replay-button{width:32px;height:32px;border:1px solid #dfe2d0;border-radius:50%}
+html[data-motion=paused] .hero-mark{transform:none!important}
+@media(max-width:760px){.hero-cat{animation-name:cat-breathe-mobile}.hello-bubble{animation-name:hello-float-mobile}.orbit-one:after{width:5px;height:5px}.orbit-two:after{width:4px;height:4px}.pet-spark{font-size:17px}.cat-universe{overflow:visible}.gallery-controls{gap:10px}.gallery-controls .replay-button{width:28px;height:28px}}
+@keyframes cat-breathe-mobile{0%,100%{transform:translateY(1px) rotate(-1deg)}50%{transform:translateY(-9px) rotate(2deg)}}
+@keyframes hello-float-mobile{0%,100%{transform:translateY(0) rotate(-4deg)}50%{transform:translateY(-4px) rotate(-1deg)}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}.cat-universe .hero-mark{transform:none!important}}
